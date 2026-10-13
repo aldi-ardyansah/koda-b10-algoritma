@@ -59,12 +59,12 @@ ENDIF
 flowchart LR
     A((Start)) --> B[/r/]
     B --> C{r % 7 == 0}
-    C --T--> D[22/7 * r * r] --> F[/print Luas Lingkaran/]
-    C --F--> E[3,14 * r * r] --> G[/print Luas Lingkaran/]
-    F[/print Luas Lingkaran/] --> H[2 * 22/7 * r]
-    G[/print Luas Lingkaran/] --> I[2 * 3,14 * r]
-    H --> J[/print Keliling Lingkaran/] --> L(((Stop)))
-    I --> K[/print Keliling Lingkaran/] --> L(((Stop)))
+    C --T--> D[22/7 * r * r] --> F[/"Luas Lingkaran"/]
+    C --F--> E[3,14 * r * r] --> G[/"Luas Lingkaran"/]
+    F[/"Luas Lingkaran"/] --> H[2 * 22/7 * r]
+    G[/"Luas Lingkaran"/] --> I[2 * 3,14 * r]
+    H --> J[/"Keliling Lingkaran"/] --> L(((Stop)))
+    I --> K[/"Keliling Lingkaran"/] --> L(((Stop)))
 ```
 
 ### Pseudo-code

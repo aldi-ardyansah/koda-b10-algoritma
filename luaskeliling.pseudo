@@ -1,0 +1,22 @@
+DECLARE r : INTEGER
+DECLARE piA : REAL
+DECLARE piB : REAL
+
+INPUT r
+INPUT LuasLingkaranA
+INPUT LuasLingkaranB
+INPUT KelilingLingkaran
+
+IF r MOD 7 = 0 THEN
+    piA <- 22/7
+    LuasLingkaranA <- piA * r * r
+    OUTPUT LuasLingkaranA
+    KelilingLingkaran <- 2 * piA * r
+    OUTPUT KelilingLingkaran
+ELSE
+    piB <- 3.14
+    LuasLingkaranB <- piB * r * r
+    OUTPUT LuasLingkaranB
+    KelilingLingkaran <- 2 * piA * r
+    OUTPUT KelilingLingkaran
+ENDIF
