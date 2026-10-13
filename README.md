@@ -21,18 +21,28 @@
 
 ### Flowchart
 ```mermaid
-flowchart TD
+flowchart LR
     A((Start)) --> B[/Angka/]
-    B[/Angka/] --> C[Angka / 2]
-    C[Hasil = Angka % 2] --> D{Hasil = 0}
-    D{Hasil = 0} --Ya--> E[/Print ''Genap''/] --> G(((Finish)))
-    D{Hasil = 0} --Tidak--> F[/Print ''Ganjil''/] --> G(((Finish)))
+    B[/Angka/] --> C{Angka % 2}
+    C{Angka % 2} --Ya--> D[/Print ''Genap''/] --> F(((Finish)))
+    C{Angka % 2} --Tidak--> E[/Print ''Ganjil''/] --> F(((Finish)))
 ```
 
 ## Membuat algoritma menghitung luas dan keliling lingkaran
+
+### Deskriptif
 1. Mulai
 1. Masukan sebuah angka jari-jari (r)
 1. Angka 22 dibagi 7 adalah (pi)
 1. Luas lingkaran adalah 22 dibagi 7 (pi) dikali jari-jari (r) dikali jari-jari (r)
 1. Keliling lingkaran adalah 2 dikali 22 dibagi 7 (pi) dikali jari-jari (r)
 1. Selesai
+
+### Flowchart
+```mermaid
+flowchart LR
+    A((Start)) --> B[/r/]
+    B[/r/] --> C{if r % 7 == 0}
+    C{if r % 7 == 0} --Yes--> D[22/7 * r * r]
+    C{if r % 7 == 0} --No--> E[3,14 * r * r]
+```
