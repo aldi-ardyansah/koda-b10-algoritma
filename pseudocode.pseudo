@@ -1,0 +1,6 @@
+DECLARE angka1 : INTEGER
+DECLARE angka2 : INTEGER
+
+hasil <- angka1 + angka2
+
+OUTPUT hasil
