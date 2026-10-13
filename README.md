@@ -24,8 +24,8 @@
 flowchart LR
     A((Start)) --> B[/Angka/]
     B[/Angka/] --> C{Angka % 2}
-    C{Angka % 2} --T--> D[/Print ''Genap''/] --> F(((Finish)))
-    C{Angka % 2} --F--> E[/Print ''Ganjil''/] --> F(((Finish)))
+    C{Angka % 2} --T--> D[/Print ''Genap''/] --> F(((Stop)))
+    C{Angka % 2} --F--> E[/Print ''Ganjil''/] --> F(((Stop)))
 ```
 
 ## Membuat algoritma menghitung luas dan keliling lingkaran
@@ -49,8 +49,8 @@ flowchart LR
     C --F--> E[3,14 * r * r] --> G[/print Luas Lingkaran/]
     F[/print Luas Lingkaran/] --> H[2 * 22/7 * r]
     G[/print Luas Lingkaran/] --> I[2 * 3,14 * r]
-    H --> J[/print Keliling Lingkaran/] --> L(((Finish)))
-    I --> K[/print Keliling Lingkaran/] --> L(((Finish)))
+    H --> J[/print Keliling Lingkaran/] --> L(((Stop)))
+    I --> K[/print Keliling Lingkaran/] --> L(((Stop)))
 ```
 
 ## Menjumlahkan dua bilangan
@@ -64,3 +64,26 @@ flowchart LR
 1. Selesai
 
 ### Flowchart
+
+```mermaid
+    flowchart LR
+
+    A@{shape: circle, label: "Start"} -->
+    B@{shape: lean-r, label: "angka1"} -->
+    C@{shape: lean-r, label: "angka2"} -->
+    D@{shape: rect, label: "hasil=angka1+angka2"} -->
+    E@{shape: lean-r, label: "hasil"} -->
+    Z@{shape: dbl-circ, label: "Stop"}
+
+```
+
+### Pseudo-code
+
+```
+DECLARE angka1 : INTEGER
+DECLARE angka2 : INTEGER
+
+hasil <- angka1 + angka2
+
+OUTPUT hasil
+```
