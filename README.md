@@ -23,3 +23,4 @@
 1. Angka 22/7 adalah (pi)
 1. Luas lingkaran adalah jari-jari (r) dikali jari-jari (r) dikali 22/7 (pi)
 1. Keliling lingkaran adalah 2 dikali 22/7 (pi) dikali jari-jari (r)
+1. Selesai
