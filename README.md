@@ -19,7 +19,7 @@
 
 ## Membuat algoritma menghitung luas dan keliling lingkaran
 1. Mulai
-1. Siapkan sebuah angka jari-jari (r)
+1. Masukan sebuah angka jari-jari (r)
 1. Angka 22 dibagi 7 adalah (pi)
 1. Luas lingkaran adalah 22 dibagi 7 (pi) dikali jari-jari (r) dikali jari-jari (r)
 1. Keliling lingkaran adalah 2 dikali 22 dibagi 7 (pi) dikali jari-jari (r)
