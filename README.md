@@ -11,11 +11,16 @@
 1. Selesai
 
 ## Membuat algoritma menentukan bilangan ganjil atau genap
+
+### Deskriptif
 1. Mulai
 1. Siapkan satu buah angka bilangan bulat positif (a) dengan anggota dari 1 sampai tak terhingga;
 1. Bagi angka tersebut (a) dengan angka 2;
 1. Jika hasil pembagian merupakan bilangan bulat positif, maka bilangan (a) adalah bilangan ganjil; Jika hasil pembagian merupakan bilangan desimal, maka bilangan (a) merupakan bilangan ganjil;
 1. Selesai
+
+### Flowchart
+
 
 ## Membuat algoritma menghitung luas dan keliling lingkaran
 1. Mulai
