@@ -24,8 +24,8 @@
 flowchart LR
     A((Start)) --> B[/Angka/]
     B[/Angka/] --> C{Angka % 2}
-    C{Angka % 2} --Ya--> D[/Print ''Genap''/] --> F(((Finish)))
-    C{Angka % 2} --Tidak--> E[/Print ''Ganjil''/] --> F(((Finish)))
+    C{Angka % 2} --T--> D[/Print ''Genap''/] --> F(((Finish)))
+    C{Angka % 2} --F--> E[/Print ''Ganjil''/] --> F(((Finish)))
 ```
 
 ## Membuat algoritma menghitung luas dan keliling lingkaran
@@ -43,6 +43,6 @@ flowchart LR
 flowchart LR
     A((Start)) --> B[/r/]
     B[/r/] --> C{if r % 7 == 0}
-    C{if r % 7 == 0} --Yes--> D[22/7 * r * r] --> F[/print Luas Lingkaran/]
-    C{if r % 7 == 0} --No--> E[3,14 * r * r] --> F[/print Luas Lingkaran/]
+    C{if r % 7 == 0} --T--> D[22/7 * r * r] --> F[/print Luas Lingkaran/]
+    C{if r % 7 == 0} --F--> E[3,14 * r * r] --> F[/print Luas Lingkaran/]
 ```
