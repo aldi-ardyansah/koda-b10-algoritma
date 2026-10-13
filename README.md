@@ -52,3 +52,15 @@ flowchart LR
     H --> J[/print Keliling Lingkaran/] --> L(((Finish)))
     I --> K[/print Keliling Lingkaran/] --> L(((Finish)))
 ```
+
+## Menjumlahkan dua bilangan
+
+### Deskriptif
+1. Mulai
+1. Masukan angka pertama
+1. Masukan angka kedua
+1. Tambahkan angka pertama dan kedua
+1. Print hasil pertambahan
+1. Selesai
+
+### Flowchart
