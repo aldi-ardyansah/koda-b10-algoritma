@@ -31,11 +31,11 @@ flowchart LR
 ### Pseudo-code
 
 ```
-DECLARE angka : INTEGER
+DECLARE Angka : INTEGER
 
-INPUT angka
+INPUT Angka
 
-IF angka MOD 2 = 0 THEN
+IF Angka MOD 2 = 0 THEN
     OUTPUT "Genap"
 ELSE
     OUTPUT "Ganjil"
