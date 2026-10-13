@@ -14,9 +14,9 @@
 
 ### Deskriptif
 1. Mulai
-1. Siapkan satu buah angka bilangan bulat positif (a) dengan anggota dari 1 sampai tak terhingga;
-1. Bagi angka tersebut (a) dengan angka 2;
-1. Jika hasil pembagian merupakan bilangan bulat positif, maka bilangan (a) adalah bilangan ganjil; Jika hasil pembagian merupakan bilangan desimal, maka bilangan (a) merupakan bilangan ganjil;
+1. Siapkan satu buah angka bilangan bulat positif (angka) dengan anggota dari 1 sampai tak terhingga;
+1. Bagi angka tersebut (angka) dengan angka 2;
+1. Jika hasil pembagian merupakan bilangan bulat positif, maka bilangan (angka) adalah bilangan ganjil; Jika hasil pembagian merupakan bilangan desimal, maka bilangan (angka) merupakan bilangan ganjil;
 1. Selesai
 
 ### Flowchart
@@ -26,6 +26,20 @@ flowchart LR
     B[/Angka/] --> C{Angka % 2}
     C{Angka % 2} --T--> D[/Print ''Genap''/] --> F(((Stop)))
     C{Angka % 2} --F--> E[/Print ''Ganjil''/] --> F(((Stop)))
+```
+
+### Pseudo-code
+
+```
+DECLARE angka : INTEGER
+
+INPUT angka
+
+IF angka MOD 2 = 0 THEN
+    OUTPUT "Angka Genap"
+ELSE
+    OUTPUT "Angka Ganjil"
+ENDIF
 ```
 
 ## Membuat algoritma menghitung luas dan keliling lingkaran

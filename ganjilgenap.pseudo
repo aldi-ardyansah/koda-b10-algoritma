@@ -1,0 +1,9 @@
+DECLARE angka : INTEGER
+
+INPUT angka
+
+IF angka MOD 2 = 0 THEN
+    OUTPUT "Angka Genap"
+ELSE
+    OUTPUT "Angka Ganjil"
+ENDIF
