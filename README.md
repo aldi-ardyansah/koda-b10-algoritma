@@ -16,3 +16,10 @@
 1. Bagi angka tersebut (a) dengan angka 2;
 1. Jika hasil pembagian merupakan bilangan bulat positif, maka bilangan (a) adalah bilangan ganjil; Jika hasil pembagian merupakan bilangan desimal, maka bilangan (a) merupakan bilangan ganjil;
 1. Selesai
+
+## Membuat algoritma menghitung luas dan keliling lingkaran
+1. Mulai
+1. Siapkan sebuah angka jari-jari (r)
+1. Angka 22/7 adalah (pi)
+1. Luas lingkaran adalah jari-jari (r) dikali jari-jari (r) dikali 22/7 (pi)
+1. Keliling lingkaran adalah 2 dikali 22/7 (pi) dikali jari-jari (r)
