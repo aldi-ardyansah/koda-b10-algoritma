@@ -53,37 +53,25 @@ flowchart LR
     I --> K[/print Keliling Lingkaran/] --> L(((Stop)))
 ```
 
-## Menjumlahkan dua bilangan
-
-### Deskriptif
-1. Mulai
-1. Masukan angka pertama
-1. Masukan angka kedua
-1. Tambahkan angka pertama dan kedua
-1. Print hasil pertambahan
-1. Selesai
-
-### Flowchart
-
-```mermaid
-    flowchart LR
-
-    A@{shape: circle, label: "Start"} -->
-    B@{shape: lean-r, label: "angka1"} -->
-    C@{shape: lean-r, label: "angka2"} -->
-    D@{shape: rect, label: "hasil=angka1+angka2"} -->
-    E@{shape: lean-r, label: "hasil"} -->
-    Z@{shape: dbl-circ, label: "Stop"}
-
-```
-
 ### Pseudo-code
 
 ```
-DECLARE angka1 : INTEGER
-DECLARE angka2 : INTEGER
+DECLARE r : INTEGER
+DECLARE piA : INTEGER
+DECLARE piB : INTEGER
 
-hasil <- angka1 + angka2
+LuasLingkaranA <- piA * r * r
+LuasLingkaranB <- piB * r * r
 
-OUTPUT hasil
+IF r MOD 7 = 0 THEN
+    LuasLingkaranA <- piA * r * r
+ELSE
+    LuasLingkaranB <- piB * r * r
+ENDIF
+
+KelilingLingkaran <- 2 * piA * r
+
+OUTPUT LuasLingkaranA
+OUTPUT LuasLingkaranB
+OUTPUT KelilingLingkaran
 ```

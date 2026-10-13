@@ -1,6 +1,18 @@
-DECLARE angka1 : INTEGER
-DECLARE angka2 : INTEGER
+DECLARE r : INTEGER
+DECLARE piA : INTEGER
+DECLARE piB : INTEGER
 
-hasil <- angka1 + angka2
+LuasLingkaranA <- piA * r * r
+LuasLingkaranB <- piB * r * r
 
-OUTPUT hasil
+IF r MOD 7 = 0 THEN
+    LuasLingkaranA <- piA * r * r
+ELSE
+    LuasLingkaranB <- piB * r * r
+ENDIF
+
+KelilingLingkaran <- 2 * piA * r
+
+OUTPUT LuasLingkaranA
+OUTPUT LuasLingkaranB
+OUTPUT KelilingLingkaran
