@@ -25,8 +25,8 @@ flowchart TD
     A((Start)) --> B[/Angka/]
     B[/Angka/] --> C[Angka / 2]
     C[Hasil = Angka % 2] --> D{Hasil = 0}
-    D{Hasil = 0} --Ya--> E[Print ''Genap''] --> G((Finish))
-    D{Hasil = 0} --Tidak--> F[Print ''Ganjil''] --> G((Finish))
+    D{Hasil = 0} --Ya--> E[Print ''Genap''] --> G(((Finish)))
+    D{Hasil = 0} --Tidak--> F[Print ''Ganjil''] --> G(((Finish)))
 ```
 
 ## Membuat algoritma menghitung luas dan keliling lingkaran
