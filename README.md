@@ -13,6 +13,6 @@
 ## Membuat algoritma menentukan bilangan ganjil atau genap
 1. Mulai
 1. Siapkan satu buah angka bilangan asli (a) dengan anggota dari 1 sampai tak terhingga;
-1. Bagi satu buah angka tersebut dengan angka 2;
+1. Bagi angka tersebut (a) dengan angka 2;
 1. Jika hasil pembagian merupakan bilangan asli, maka bilangan (a) adalah bilangan ganjil; Jika hasil pembagian merupakan bilangan desimal, maka bilangan (a) merupakan bilangan ganjil;
 1. Selesai
