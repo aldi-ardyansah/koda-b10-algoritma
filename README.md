@@ -24,8 +24,8 @@
 flowchart LR
     A((Start)) --> B[/Angka/]
     B[/Angka/] --> C{Angka % 2}
-    C{Angka % 2} --T--> D[/Print ''Genap''/] --> F(((Stop)))
-    C{Angka % 2} --F--> E[/Print ''Ganjil''/] --> F(((Stop)))
+    C{Angka % 2} --T--> D[/"Genap"/] --> F(((Stop)))
+    C{Angka % 2} --F--> E[/"Ganjil"/] --> F(((Stop)))
 ```
 
 ### Pseudo-code
@@ -36,9 +36,9 @@ DECLARE angka : INTEGER
 INPUT angka
 
 IF angka MOD 2 = 0 THEN
-    OUTPUT "Angka Genap"
+    OUTPUT "Genap"
 ELSE
-    OUTPUT "Angka Ganjil"
+    OUTPUT "Ganjil"
 ENDIF
 ```
 
