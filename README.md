@@ -42,7 +42,7 @@ flowchart LR
 ```mermaid
 flowchart LR
     A((Start)) --> B[/r/]
-    B[/r/] --> C{Luas Lingkaran: if r % 7 == 0}
-    C{Luas Lingkaran if r % 7 == 0} --Yes--> D[22/7 * r * r] --> F[print Luas Lingkaran]
-    C{Luas Lingkaran if r % 7 == 0} --No--> E[3,14 * r * r] --> F[print Luas Lingkaran]
+    B[/r/] --> C{if r % 7 == 0}
+    C{if r % 7 == 0} --Yes--> D[22/7 * r * r] --> F[/print Luas Lingkaran/]
+    C{if r % 7 == 0} --No--> E[3,14 * r * r] --> F[/print Luas Lingkaran/]
 ```
