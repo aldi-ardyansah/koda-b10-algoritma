@@ -33,9 +33,11 @@ flowchart LR
 ### Deskriptif
 1. Mulai
 1. Masukan angka jari-jari (r)
-1. Angka 22 dibagi 7 adalah (pi)
-1. Luas lingkaran adalah 22 dibagi 7 (pi) dikali jari-jari (r) dikali jari-jari (r)
+1. Jika angka jari-jari (r) bisa dibagi 7, maka pi = 22/7; Jika angka jari-jari (r) bisa dibagi 7, maka pi = 3,14;
+1. Print Luas Lingkaran
+1. Jika pi = 22/7, maka luas lingkaran adalah 22 dibagi 7 (pi) dikali jari-jari (r) dikali jari-jari (r); Jika pi = 3,14, maka luas lingkaran adalah 3,14 (pi) dikali jari-jari (r) dikali jari-jari (r)
 1. Keliling lingkaran adalah 2 dikali 22 dibagi 7 (pi) dikali jari-jari (r)
+1. Print Keliling Lingkaran
 1. Selesai
 
 ### Flowchart
